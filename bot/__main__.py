@@ -68,10 +68,9 @@ async def stats(client, message):
 async def start(client, message):
     if config_dict['DM_MODE']:
         start_string = 'Bot Started.\n' \
-            'Now I will send your files or links here.\n'
+            'This bot can Leech all your links To Telegram\n'
     else:
-        start_string = 
-            'This bot can Leech all your links To Telegram' 
+        start_string ="This bot can Leech all your links To Telegram" 
     await sendMessage(message, start_string)
 
 
